@@ -152,13 +152,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebff5c5ff90b55049b1a7eebe688f264, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cars:
-  - {fileID: 21300000, guid: 2e2768cb4316241419adaacbf50cde9f, type: 3}
-  - {fileID: 21300000, guid: 770ccc369a4cc4143b89972086db9df6, type: 3}
-  - {fileID: 21300000, guid: 8b098e5bad1fc0045ae8f62fbc6e6606, type: 3}
-  - {fileID: 21300000, guid: bb1f7f49539686d49ae56d637b0d56b8, type: 3}
-  - {fileID: 21300000, guid: cbc60f7bdfc0781429b526d345f68ff4, type: 3}
-  carChange: 0
 --- !u!4 &46826709
 Transform:
   m_ObjectHideFlags: 0
@@ -183,7 +176,6 @@ GameObject:
   m_Component:
   - component: {fileID: 345851968}
   - component: {fileID: 345851970}
-  - component: {fileID: 345851969}
   m_Layer: 5
   m_Name: Panel (1)
   m_TagString: Untagged
@@ -211,36 +203,6 @@ RectTransform:
   m_AnchoredPosition: {x: -4.659973, y: -5.4699707}
   m_SizeDelta: {x: 143.56, y: 232.32}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &345851969
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 345851967}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f30563f28c8fb2e4f8f8711024050f04, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
 --- !u!222 &345851970
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -367,8 +329,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -455}
-  m_SizeDelta: {x: 689.66, y: 285.97}
+  m_AnchoredPosition: {x: 0, y: -304}
+  m_SizeDelta: {x: 600, y: 600}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1366348405
 MonoBehaviour:
@@ -446,7 +408,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e24815e9811d31848be066a22fb979d5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 09702e9e2b83e5843983b54a9169ce66, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -599,7 +561,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f30563f28c8fb2e4f8f8711024050f04, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 140c995d1c7d88f4c93a2cf6c527ddb7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

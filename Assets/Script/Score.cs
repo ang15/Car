@@ -16,7 +16,6 @@ public class Score : MonoBehaviour
         number += Time.deltaTime;
         numberText.text = "" + (int)number;
 
-        finishText.text = "" + (int)number;
     }
 
 }

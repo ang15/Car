@@ -15,9 +15,9 @@ public class Way : MonoBehaviour
             
         }
 
-        if (transform.localPosition.y <= -3134)
+        if (transform.localPosition.y <= -4279)
         {
-            transform.localPosition = new Vector2(transform.localPosition.x,16);
+            transform.localPosition = new Vector2(transform.localPosition.x,978);
         }
       
     }
